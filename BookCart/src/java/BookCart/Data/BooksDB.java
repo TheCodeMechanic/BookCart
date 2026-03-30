@@ -27,6 +27,8 @@ public class BooksDB {
         Connection connection = pool.getConnection();
         PreparedStatement ps = null;
         List<BookReview> reviews = new ArrayList<BookReview>();
+        // sample commengt for demo
+        
         
         ResultSet rs = null;
         
